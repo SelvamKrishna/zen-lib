@@ -1,0 +1,23 @@
+# Build Artifacts
+/build/
+/.cache/
+/CMakeFiles/
+/CMakeCache.txt
+*.exe
+*.obj
+*.o
+*.a
+*.so
+*.dll
+
+# IDE Config
+.vscode/
+.zed/
+compile_flags.txt
+*.user
+*.suo
+*.ncb
+*.VC.db
+
+# Misc Artifacts
+CHANGES.md
