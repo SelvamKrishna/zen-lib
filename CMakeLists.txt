@@ -10,11 +10,19 @@ FetchContent_Declare(
     GIT_TAG main
 )
 
+FetchContent_Declare(
+    zen-log
+    GIT_REPOSITORY https://github.com/SelvamKrishna/zen-log.git
+    GIT_TAG main
+)
+
 FetchContent_MakeAvailable(zen-math)
+FetchContent_MakeAvailable(zen-log)
 
 add_library(zen INTERFACE)
 
 target_link_libraries(zen
     INTERFACE
     zen::math
+    zen::log
 )

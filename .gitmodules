@@ -1,3 +1,6 @@
 [submodule "math"]
 	path = math
 	url = https://github.com/SelvamKrishna/zen-math.git
+[submodule "log"]
+	path = log
+	url = https://github.com/SelvamKrishna/zen-log.git
